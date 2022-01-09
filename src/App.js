@@ -1,10 +1,10 @@
 import "./App.css";
-import { BrowerRouter as Router, Route, Switch } from "react-router-dom";
-import { Landing } from "./pages/Landing";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Landing from "./pages/Landing";
 
 function App() {
   return (
-    <div className="App">
+    <div className="AppQ">
       <Router>
         <Switch>
           <Route exact path="/" component={Landing}></Route>
